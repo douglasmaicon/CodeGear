@@ -1,0 +1,19 @@
+package Conexao;
+
+import Conexao.entidades.Usuarios;
+import br.eti.codegear.persistencia.jdbc.usuariosDAO;
+
+public class TesteUsuarioDAO {
+
+	public static void main(String[] args) {
+		Usuarios usu = new Usuarios();
+		usu.setNome("teste");
+		usu.setLogin("teste");
+		usu.setSenha("123");
+		//cadastrando usuario no BD
+		usuariosDAO usuDAO = new usuariosDAO;
+		usuDAO.cadastrar(usu);
+		
+	}
+
+}

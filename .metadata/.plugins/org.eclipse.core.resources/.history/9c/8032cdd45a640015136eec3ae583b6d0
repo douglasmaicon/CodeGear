@@ -1,0 +1,12 @@
+package br.eti.codegear.persistencia.jdbc;
+
+import br.eti.codgear.persistencia.entidades.Usuarios;
+
+public class usuariosDAO {
+
+	public void cadastrar(Usuarios usu) {
+		
+		
+	}
+
+}

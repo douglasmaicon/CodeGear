@@ -1,0 +1,5 @@
+package br.eti.codegear.persistencia.jdbc;
+
+public class ConexaoFactory {
+	public static 
+}
